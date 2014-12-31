@@ -1,12 +1,12 @@
 # XBMC Media Center language file
 # Addon Name: detektor.fm
 # Addon id: plugin.audio.detektorfm
-# Addon Version: 1.0.1
+# Addon Version: 1.0.2
 # Addon Provider: sorax
 msgid ""
 msgstr ""
 "Project-Id-Version: plugin.audio.detektorfm\n"
-"Report-Msgid-Bugs-To: https://github.com/sorax/xbmc.plugin.audio.detektorfm/\n"
+"Report-Msgid-Bugs-To: https://github.com/sorax/plugin.audio.detektorfm/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: sorax\n"
