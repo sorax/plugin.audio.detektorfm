@@ -16,10 +16,22 @@ msgstr ""
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgctxt "#30010"
+msgid "Live-Stream"
+msgstr ""
+
 msgctxt "#30011"
 msgid "Talk-Stream"
 msgstr ""
 
 msgctxt "#30012"
 msgid "Music-Stream"
+msgstr ""
+
+msgctxt "#30110"
+msgid "General"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Stream-Quality"
 msgstr ""

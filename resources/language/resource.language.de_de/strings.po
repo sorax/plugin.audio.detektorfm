@@ -16,6 +16,10 @@ msgstr ""
 "Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgctxt "#30010"
+msgid "Live-Stream"
+msgstr "Live-Stream"
+
 msgctxt "#30011"
 msgid "Talk-Stream"
 msgstr "Wort-Stream"
@@ -23,3 +27,11 @@ msgstr "Wort-Stream"
 msgctxt "#30012"
 msgid "Music-Stream"
 msgstr "Musik-Stream"
+
+msgctxt "#30110"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "#30111"
+msgid "Stream-Quality"
+msgstr "Stream-Qualität"

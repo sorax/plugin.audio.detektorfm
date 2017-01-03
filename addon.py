@@ -39,12 +39,29 @@ addon_handle = int(sys.argv[1])
 #args = urlparse.parse_qs(sys.argv[2][1:])
 
 
+bitrate = int(addon.getSetting('bitrate'))
+streams = [
+	{
+		'wort': 'https://detektor.fm/stream/mp3/wort/',
+		'musik': 'https://detektor.fm/stream/mp3/musik/'
+	},
+	{
+		'wort': 'https://detektor.fm/stream/aac/wort/',
+		'musik': 'https://detektor.fm/stream/aac/musik/'
+	},
+	{
+		'wort': 'http://cdn.peoplemesh.net:9000/livestream_48k.mp3',
+		'musik': 'http://cdn.peoplemesh.net:9000/livestream2_48k.mp3'
+	}
+]
+
+
 def main():
 	li_stream1 = xbmcgui.ListItem(label=addon.getLocalizedString(30011), thumbnailImage=addonpath + "/resources/media/wort.png")
 	li_stream2 = xbmcgui.ListItem(label=addon.getLocalizedString(30012), thumbnailImage=addonpath + "/resources/media/musik.png")
 
-	xbmcplugin.addDirectoryItem(handle=addon_handle, url='http://detektor.fm/stream/mp3/wort/', listitem=li_stream1, isFolder=False)
-	xbmcplugin.addDirectoryItem(handle=addon_handle, url='http://detektor.fm/stream/mp3/musik/', listitem=li_stream2, isFolder=False)
+	xbmcplugin.addDirectoryItem(handle=addon_handle, url=streams[bitrate]['wort'], listitem=li_stream1, isFolder=False)
+	xbmcplugin.addDirectoryItem(handle=addon_handle, url=streams[bitrate]['musik'], listitem=li_stream2, isFolder=False)
 
 	xbmcplugin.endOfDirectory(addon_handle)
 
